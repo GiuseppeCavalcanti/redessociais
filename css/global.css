@@ -41,13 +41,36 @@ section#tel {
 
 }
 
-iframe#tela{
+iframe#tela {
 
     position: absolute;
     top: 12%;
     left: 6%;
     width: 271px;
     height: 478px;
-   
-    
+
+
+}
+
+section#redessociais{
+
+    text-align: right;
+}
+section#redessociais img {
+    /* display: flex; */
+    margin: 10px 30px;
+
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.30);
+    box-sizing: border-box;
+
+}
+
+section#redessociais img:hover{
+
+border: 2px solid rgba(255, 255, 255, 0.30);
+transform: translate(-3px, -3px);
+box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.50);
+transition:transform .3s, border 1s;
 }
